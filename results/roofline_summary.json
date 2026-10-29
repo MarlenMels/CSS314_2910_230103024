@@ -1,0 +1,25 @@
+{
+  "student_id": "230103024",
+  "salting_id": "30103024",
+  "stencil": "one pass, output interior=(center+north+south+west+east)*0.2; zero boundary",
+  "floating_operations_per_update": 5,
+  "assumed_bytes_per_update_no_reuse": 48,
+  "assumed_bytes_per_update_ideal_reuse": 16,
+  "arithmetic_intensity_flop_per_byte_no_reuse": 0.10416666666666667,
+  "arithmetic_intensity_flop_per_byte_ideal_reuse": 0.3125,
+  "measured_end_to_end_flop_per_s_P1": 48773295.354932874,
+  "minimum_input_output_bandwidth_bytes_per_s_P1": 156074545.1357852,
+  "peak_memory_bandwidth_bytes_per_s": null,
+  "peak_compute_flop_per_s": null,
+  "classification": "conditional: peaks and actual DRAM traffic unavailable",
+  "limitations": [
+    "process startup included in measured elapsed time",
+    "48 B assumes five loads plus one store; 16 B assumes ideal input reuse",
+    "actual DRAM traffic, peak bandwidth and peak FLOP/s not measured"
+  ],
+  "estimated_serial_fraction": null,
+  "amdahl_asymptotic_ceiling": null,
+  "cpu_bandwidth_information": "Unavailable: no benchmarked sustainable DRAM bandwidth",
+  "estimated_dram_bytes_per_update": 48,
+  "arithmetic_intensity_flop_per_byte": 0.10416666666666667
+}

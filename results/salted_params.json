@@ -1,0 +1,8 @@
+{
+  "student_id": "230103024",
+  "salting_id": "30103024",
+  "sha256_prefix_int": 629429653,
+  "N": 1088,
+  "buffer_elements": 16777216,
+  "seed": 85602
+}

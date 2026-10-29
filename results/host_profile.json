@@ -1,0 +1,42 @@
+{
+  "student_id": "230103024",
+  "salting_id": "30103024",
+  "cpu_model": "Apple M1 Pro",
+  "architecture": "arm64",
+  "microarchitecture": null,
+  "base_frequency_hz": null,
+  "physical_cores": 10,
+  "logical_cores": 10,
+  "smt": false,
+  "cache": {
+    "entries": [],
+    "source": "macOS sysctl",
+    "L1_data_bytes": null,
+    "L2_bytes": null,
+    "L3_bytes": null,
+    "line_bytes": 128
+  },
+  "memory_bytes": 34359738368,
+  "os": "Darwin",
+  "os_version": "Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000",
+  "kernel_release": "27.0.0",
+  "python_version": "3.13.12",
+  "python_implementation": "CPython",
+  "python_executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+  "numpy_version": "2.5.3",
+  "evidence": [
+    "system_profiler core description: Total Number of Cores: 10 (8 Performance and 2 Efficiency)",
+    "model/core/memory fallback: system_profiler",
+    "hw.cachelinesize=128 from macOS sysctl -n hw.cachelinesize (queried outside sandbox)"
+  ],
+  "unknown_fields": {
+    "base_frequency_hz": "OS did not expose a reliable base frequency",
+    "L1_data_bytes": "OS cache query unavailable",
+    "L2_bytes": "OS cache query unavailable",
+    "L3_bytes": "No reliably reported shared L3 cache size",
+    "microarchitecture": "No reliable OS microarchitecture identifier available"
+  },
+  "unknown_means": "OS did not expose a reliable value; no estimate substituted",
+  "logical_threads": 10,
+  "cache_line_bytes": 128
+}

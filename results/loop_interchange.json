@@ -1,0 +1,37 @@
+{
+  "student_id": "230103024",
+  "salting_id": "30103024",
+  "salted_N": 1088,
+  "subblock_M": 544,
+  "algorithms": [
+    {
+      "algorithm": "i-j-k",
+      "salted_N": 1088,
+      "subblock_M": 544,
+      "samples_ns": "284129792,289134625,287887833",
+      "median_runtime_ns": 287887833,
+      "max_absolute_error_vs_numpy": 6.927791673660977e-14,
+      "numpy_allclose_atol": 1e-12,
+      "numpy_allclose_rtol": 1e-12,
+      "digest_sha256": "bc86f56fbe4e2459aead398ba516e13a10aff833a716504edc0bb19f027525e0",
+      "speedup_ijk_over_ikj": 0.7820162161813436
+    },
+    {
+      "algorithm": "i-k-j",
+      "salted_N": 1088,
+      "subblock_M": 544,
+      "samples_ns": "368667541,368080959,368135375",
+      "median_runtime_ns": 368135375,
+      "max_absolute_error_vs_numpy": 2.1316282072803006e-14,
+      "numpy_allclose_atol": 1e-12,
+      "numpy_allclose_rtol": 1e-12,
+      "digest_sha256": "bc86f56fbe4e2459aead398ba516e13a10aff833a716504edc0bb19f027525e0",
+      "speedup_ijk_over_ikj": 0.7820162161813436
+    }
+  ],
+  "speedup_ijk_over_ikj": 0.7820162161813436,
+  "reference": "NumPy matrix multiplication",
+  "tolerance_atol": 1e-12,
+  "tolerance_rtol": 1e-12,
+  "verified": true
+}
