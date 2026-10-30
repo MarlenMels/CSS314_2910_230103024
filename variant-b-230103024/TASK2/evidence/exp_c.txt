@@ -1,0 +1,5 @@
+P=1 | Time=0.611395s | Count=20000000
+P=2 | Time=0.320118s | Count=20000000
+P=4 | Time=0.192403s | Count=20000000
+P=2 | Speedup=1.9099x | Efficiency=95.50% | Karp-Flatt=0.047172
+P=4 | Speedup=3.1777x | Efficiency=79.44% | Karp-Flatt=0.086260

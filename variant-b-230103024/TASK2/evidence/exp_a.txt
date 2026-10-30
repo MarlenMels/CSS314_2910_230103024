@@ -1,0 +1,5 @@
+P=1 | Time=3.882017s | Checksum=6.1691618058
+P=2 | Time=2.261262s | Checksum=6.1691618058
+P=4 | Time=1.387859s | Checksum=6.1691618058
+P=2 | Speedup=1.7167x | Efficiency=85.84% | Karp-Flatt=0.164993
+P=4 | Speedup=2.7971x | Efficiency=69.93% | Karp-Flatt=0.143346
